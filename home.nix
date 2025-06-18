@@ -19,6 +19,9 @@
   # environment.
   home.packages = with pkgs; [
     python3Full
+    ffmpeg_6
+    gcc
+    openjdk17
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
