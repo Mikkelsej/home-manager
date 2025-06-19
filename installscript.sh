@@ -14,9 +14,7 @@ echo "Cloning config..."
 git clone "$REPO_URL" "$CLONE_DIR"
 
 echo "Switching config..."
-nix shell nixpkgs#home-manager
-home-manager switch -b backup --flake ~/home-manager#mikke
-
+nix run nixpkgs#home-manager -- switch -b backup --flake ~/home-manager#mikke
 
 echo "Done!"
 
