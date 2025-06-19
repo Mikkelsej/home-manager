@@ -25,6 +25,7 @@
         modules = [ 
           ./home.nix 
           ./modules/zsh/default.nix
+          ./modules/git.nix
         ];
 
         # Optionally use extraSpecialArgs

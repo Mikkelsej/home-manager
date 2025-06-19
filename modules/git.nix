@@ -6,14 +6,14 @@
     userName  = "Mikkelsej";
     userEmail = "mikkel.sejdelin@gmail.com";
 
-    config = {
+    extraConfig = {
 
       init = {
-        defaultBranch = "main";
+        defaultBranch = "master";
       };
 
       core = {
-        excludesFile = "${config.home.homeDirectory}/.config/git/ignore";
+        excludesFile = "/home/mikke/.config/git/ignore";
       };
 
     };
@@ -22,5 +22,5 @@
   home.file.".config/git/ignore".text = ''
     .venv/
     .vscode/
-  ''
+  '';
 }
