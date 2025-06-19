@@ -14,7 +14,7 @@ echo "Cloning config..."
 git clone "$REPO_URL" "$CLONE_DIR"
 
 echo "Switching config..."
-nix run home-manager/release-23.11 -- switch --flake "$CLONE_DIR#$(whoami)"
+nix run home-manager/release-23.11 -b backup -- switch --flake "$CLONE_DIR#$(whoami)"
 
 echo "Done!"
 
