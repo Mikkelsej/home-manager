@@ -26,6 +26,7 @@
           ./home.nix 
           ./modules/zsh/default.nix
           ./modules/git.nix
+          ./modules/yazi.nix
         ];
 
         # Optionally use extraSpecialArgs

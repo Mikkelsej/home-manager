@@ -14,6 +14,7 @@
     ffmpeg_6
     gcc
     openjdk17
+    yazi
   ];
 
 
