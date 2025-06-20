@@ -14,7 +14,6 @@
     ffmpeg_6
     gcc
     openjdk17
-    yazi
   ];
 
 
@@ -23,7 +22,8 @@
   };
 
 
-
+  home.sessionVariables.EDITOR = "code --wait";
+  
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
