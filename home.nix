@@ -11,9 +11,11 @@
 
   home.packages = with pkgs; [
     python3Full
+    python312Packages.pip
     ffmpeg_6
     gcc
     openjdk17
+    yt-dlp
   ];
 
 
