@@ -9,12 +9,6 @@
       ls = "eza -a --icons=always";
       ll = "eza -al --icons=always";
       lt = "eza -a --tree --level=1 --icons=always";
-      shutdown = "systemctl poweroff";
-
-      wifi = "nmtui";
-      logout = "hyprctl dispatch exit";
-
-      #code = "code -n";
 
       gs = "git status";
       ga = "git add";
@@ -28,5 +22,7 @@
       gcredential = "git config credential.helper store";
 
       home-switch = "home-manager switch --flake ~/home-manager#mikke";
+
+      cd = "z";
     };
 }

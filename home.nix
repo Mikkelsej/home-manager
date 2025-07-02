@@ -16,6 +16,8 @@
     gcc
     openjdk17
     yt-dlp
+    zoxide
+    fzf
   ];
 
 
@@ -24,7 +26,7 @@
   };
 
 
-  home.sessionVariables.EDITOR = "code --wait";
+  home.sessionVariables.EDITOR = "code";
   
 
   # Let Home Manager install and manage itself.
