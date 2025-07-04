@@ -24,8 +24,8 @@
         # the path to your home.nix.
         modules = [ 
           ./home.nix 
-          ./modules/fish/default.nix
-          #./modules/zsh/default.nix
+          #./modules/fish/default.nix
+          ./modules/zsh/default.nix
           ./modules/git.nix
           ./modules/yazi.nix
         ];

@@ -32,4 +32,6 @@ in
     fastfetch
     eza
   ];
+
+  programs.starship.enable = true;
 }
